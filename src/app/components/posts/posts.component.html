@@ -1,0 +1,7 @@
+<h1>All Posts (homework)</h1>
+<app-post *ngFor="let post of posts" [post]="post" (bubbleUp)="getBubble($event)"></app-post>
+
+
+<h2>
+  <app-post [post]="fullPost"></app-post>
+</h2>

@@ -1,0 +1,7 @@
+<div *ngFor="let post of posts" >
+
+  <app-post *ngIf="post.userId == id" [posts]="post"></app-post>
+
+</div>
+
+

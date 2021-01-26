@@ -1,0 +1,8 @@
+
+<hr>
+<h4>Detailed info about user #{{user.id}}</h4>
+{{user.name}} - {{user.username}} - {{user.address.city}} - {{user.address.street}}
+
+<a [routerLink]="['posts',user.id]">Show posts</a>
+
+<router-outlet></router-outlet>

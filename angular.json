@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "angularOwuHomeworks"
+  "defaultProject": "angularOwuHomeworks",
+  "cli": {
+    "analytics": false
+  }
 }

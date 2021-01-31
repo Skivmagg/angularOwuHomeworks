@@ -12,7 +12,7 @@ export class UsersComponent implements OnInit {
   users: User[];
 
   constructor(private activatedRoute: ActivatedRoute) {
-    this.activatedRoute.data.subscribe(value => this.users = value.usersData)
+    this.activatedRoute.data.subscribe(value => this.users = value.usersData);
   }
 
   ngOnInit(): void {
